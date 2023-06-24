@@ -1,0 +1,11 @@
+.navbar {
+    width: 100%;
+    background-color: #fff;
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-left: 5rem;
+    position: sticky;
+    top: 0;
+}

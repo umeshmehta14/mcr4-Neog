@@ -1,0 +1,140 @@
+.post-container header {
+    background-color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.main-post-box {
+    background-color: white;
+    border-radius: 4px;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.votes-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vote-icon {
+    font-size: 2rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.upvote-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.post-nav {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.posted-by {
+    color: gray;
+    margin-left: 4px;
+}
+
+.username {
+    color: var(--primary-color);
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+.gray {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.post-information {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.tag-box {
+    display: flex;
+    gap: 1rem;
+}
+
+.description {
+    padding-bottom: 0.5rem;
+}
+
+.tag-box>span {
+    background-color: rgb(235, 219, 255);
+
+    padding: 4px 6px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+.icon-2 {
+    font-size: 1.5rem;
+    color: lightslategray;
+    cursor: pointer;
+}
+
+.icon-2:hover {
+    color: black;
+}
+
+.comm-username {
+    color: gray;
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+.comment--main-box {
+    background-color: white;
+    padding: 1rem;
+
+    display: flex;
+    gap: 1rem;
+}
+
+.comment-info {
+
+    width: 100%;
+    padding-right: 3rem;
+
+}
+
+.comm-name {
+    font-weight: bold;
+}
+
+.comment-username {
+    font-size: 12px;
+}
+
+.upper-section {
+    display: flex;
+    align-items: center;
+}
+
+.posted-by-2 {
+    color: gray;
+}

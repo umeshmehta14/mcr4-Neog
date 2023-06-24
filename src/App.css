@@ -3,3 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --primary-color: rgb(155, 74, 255);
+}
+
+body {
+  background-color: rgba(232, 232, 232, 0.671);
+}
+
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 4rem;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+}

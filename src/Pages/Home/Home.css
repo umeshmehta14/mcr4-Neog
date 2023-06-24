@@ -1,0 +1,45 @@
+.home-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.home-container h2 {
+    margin-top: 2rem;
+}
+
+.post-container {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sort-section {
+    position: sticky;
+    top: 3rem;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.sort-section select {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+.sort-section select:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.sort-section select option {
+    background-color: #333;
+    color: white;
+}
